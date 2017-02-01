@@ -1,0 +1,524 @@
+﻿<Window x:Class="OdtwarzaczMuzyczny.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="OdtwarzaczMuzyczny"  Height="1040" Width="725" Loaded="Window1_Loaded" Icon="Images/app_music.png" SizeChanged="MainWindow_SizeChanged" Left="0" Top="0">
+
+
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo>
+            
+            <TaskbarItemInfo.ThumbButtonInfos>
+
+                <ThumbButtonInfo x:Name="PreviousThumb" ImageSource="{Binding Path=Source, ElementName=PreviousButtonImage}" Description="PreviousButton" Command="MediaCommands.PreviousTrack"  
+                                 DismissWhenClicked="False" CommandTarget="{Binding ElementName=PreviousButton}"
+                              />
+                
+                <ThumbButtonInfo x:Name="PlayThumb" ImageSource="{Binding Path=Source, ElementName=PlayPauseButtonReturned}" Description="Play" Command="MediaCommands.Play"  
+                                 DismissWhenClicked="False" CommandTarget="{Binding ElementName=PlayPauseButton}"
+                              />
+              
+                <ThumbButtonInfo x:Name="NextThumb" ImageSource="{Binding Path=Source, ElementName=NextButtonReturned}" Description="NextButton" Command="MediaCommands.NextTrack"  
+                                 DismissWhenClicked="False" CommandTarget="{Binding ElementName=NextButton}" 
+                               />
+            </TaskbarItemInfo.ThumbButtonInfos>
+           
+        </TaskbarItemInfo>
+    </Window.TaskbarItemInfo>
+
+
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Open" CanExecute="Open_CanExecute" Executed="Open_Executed" />
+        <CommandBinding Command="MediaCommands.Play" CanExecute="Play_CanExecute" Executed="Play_Executed" />
+        <CommandBinding Command="MediaCommands.Pause" CanExecute="Pause_CanExecute" Executed="Pause_Executed" />
+        <CommandBinding Command="MediaCommands.PreviousTrack" CanExecute="Previous_CanExecute" Executed="Previous_Executed" />
+        <CommandBinding Command="MediaCommands.NextTrack" CanExecute="Next_CanExecute" Executed="Next_Executed" />
+    </Window.CommandBindings>
+    <Window.Resources>
+        
+        <SolidColorBrush x:Key="HorizontalSliderTrackNormalBackground" Color="Transparent"/>
+        <LinearGradientBrush x:Key="HorizontalSliderTrackNormalBorder" EndPoint="0,1" StartPoint="0,0">
+           
+        </LinearGradientBrush>
+        <Style x:Key="SliderRepeatButtonStyle" TargetType="{x:Type RepeatButton}">
+            <Setter Property="OverridesDefaultStyle" Value="true"/>
+            <Setter Property="IsTabStop" Value="false"/>
+            <Setter Property="Focusable" Value="false"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type RepeatButton}">
+                        <Rectangle Fill="#FFD42626"  Height="4"></Rectangle>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="SliderRepeatButtonStyle2" TargetType="{x:Type RepeatButton}">
+            <Setter Property="OverridesDefaultStyle" Value="true"/>
+            <Setter Property="IsTabStop" Value="false"/>
+            <Setter Property="Focusable" Value="false"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type RepeatButton}">
+                        <Rectangle Fill="Red"  Height="4"></Rectangle>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="CustomThumbForSlider" TargetType="{x:Type Thumb}">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Thumb}">
+                        
+                        <ControlTemplate.Triggers>
+
+                            <Trigger Property="IsDragging" Value="True">
+                               
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                        <Image Height="40" Width="40" >
+                        <Image.Style>
+                            <Style TargetType="Image">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_seekbar_touch23.png" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_seekbar_thumb_pressed2.png" />
+                                    </Trigger>
+                                    
+                                    </Style.Triggers>
+                            </Style>
+                        </Image.Style>
+                        </Image>
+                    </ControlTemplate>
+                </Setter.Value>
+                
+            </Setter>
+          
+        </Style>
+        <Style x:Key="CustomThumbForSlider2" TargetType="{x:Type Thumb}">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Thumb}">
+                        <Image Height="40" Width="40" >
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_seekbar_thumb_pressed2.png" />
+                                    
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                    </ControlTemplate>
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+        <Style x:Key="MyCustomStyleForSlider" TargetType="{x:Type Slider}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Slider}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                                <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                                <Border x:Name="TrackBackground" 
+                                        Background="{StaticResource HorizontalSliderTrackNormalBackground}"
+                                        BorderBrush="{StaticResource HorizontalSliderTrackNormalBorder}"                                        
+                                        BorderThickness="1" CornerRadius="1"
+                                        Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                    <Canvas Margin="-6,-1">
+                                        <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                                   Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                                   Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                                   StrokeThickness="1.0"/>
+                                    </Canvas>
+                                </Border>
+                                <Track x:Name="PART_Track" Grid.Row="1">
+                                    <Track.DecreaseRepeatButton>
+                                        <RepeatButton  Style="{StaticResource  SliderRepeatButtonStyle2}" Command="{x:Static Slider.DecreaseLarge}"/>
+                                    </Track.DecreaseRepeatButton>
+                                    <Track.IncreaseRepeatButton>
+                                        <RepeatButton Style="{StaticResource SliderRepeatButtonStyle}" Command="{x:Static Slider.IncreaseLarge}"/>
+                                    </Track.IncreaseRepeatButton>
+                                
+                                <Track.Thumb>
+                                        
+                                        <Thumb x:Name="Thumb" Style="{StaticResource CustomThumbForSlider}" Background="Black"/>
+                                    </Track.Thumb>
+                                </Track>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="MyCustomStyleForSlider2" TargetType="{x:Type Slider}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Slider}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto" MinHeight="{TemplateBinding MinHeight}"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <TickBar x:Name="TopTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Top" Height="4" Grid.Row="0"/>
+                                <TickBar x:Name="BottomTick" Visibility="Collapsed" Fill="{TemplateBinding Foreground}" Placement="Bottom" Height="4" Grid.Row="0"/>
+                                <Border x:Name="TrackBackground" 
+                                        Background="{StaticResource HorizontalSliderTrackNormalBackground}"
+                                        BorderBrush="{StaticResource HorizontalSliderTrackNormalBorder}"                                        
+                                        BorderThickness="1" CornerRadius="1"
+                                        Margin="5,0" VerticalAlignment="Center" Height="4.0" Grid.Row="1" >
+                                    <Canvas Margin="-6,-1">
+                                        <Rectangle Visibility="Hidden" x:Name="PART_SelectionRange" Height="4.0"
+                                                   Fill="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                                                   Stroke="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"
+                                                   StrokeThickness="1.0"/>
+                                    </Canvas>
+                                </Border>
+                                <Track x:Name="PART_Track" Grid.Row="1">
+                                    <Track.DecreaseRepeatButton>
+                                        <RepeatButton  Style="{StaticResource  SliderRepeatButtonStyle2}" Command="{x:Static Slider.DecreaseLarge}"/>
+                                    </Track.DecreaseRepeatButton>
+                                    <Track.IncreaseRepeatButton>
+                                        <RepeatButton Style="{StaticResource SliderRepeatButtonStyle}" Command="{x:Static Slider.IncreaseLarge}"/>
+                                    </Track.IncreaseRepeatButton>
+                                    <Track.Thumb>
+                                        <Thumb x:Name="Thumb" Style="{StaticResource CustomThumbForSlider2}" Background="Black"/>
+                                    </Track.Thumb>
+                                </Track>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="#FFEDECF3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1" Background="#FFEDECF3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Button Name="LibraryMusic" Command="ApplicationCommands.Open" Grid.Column="2" Margin="5" Height="90" Background="#FFEDECF3"   >
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Name="LibraryMusicImage" >
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/ic_tab_folders_unselected1.png" />
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/ic_tab_folders_selected.png" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </Button>
+            <Button Name="VolumeButton" Margin="5" Background="#FFEDECF3"  Height="90" Click="VolumeButton_Click">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Name="glosobr" >
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/ic_jog_dial_sound_on.png" />
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/ic_jog_dial_sound_on_pressed.png" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </Button>
+
+            <Slider Name="VolumeSlider" Style="{StaticResource MyCustomStyleForSlider}" Grid.Column="1"  Margin="5" Grid.Row="4" Visibility="Hidden"  VerticalAlignment="Center"  Foreground="#FFC50000" ValueChanged="VolumeSlider_ValueChanged" Maximum="1" ></Slider>
+        </Grid>
+       
+            <Grid Grid.Row="0" Background="#FFEDECF3" >
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+                
+            <MediaElement Name="mePlayer" Grid.Row="1" LoadedBehavior="Manual" Stretch="None" MediaEnded="Auto_nextSong" />
+           
+                <Button Name="MusicCollection" Background="#FFEDECF3" Click="MusicCollection_Click" Height="90" IsEnabled="False" >
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Name="MusicCollectionImage">
+                    <Image.Style>
+                    <Style TargetType="Image">
+                        <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/prev.png" />
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/prev_pressed.png" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+                </Image>
+            </Button>
+        
+            <Grid Grid.Row="0" Grid.Column="1" Background="#FFEDECF3" Height="100" VerticalAlignment="Top" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Canvas Grid.Row="1"  ClipToBounds="True" Name="canMain" >
+                    <Label Name="NameSong" FontSize="22" FontWeight="Bold" Height="auto" Foreground="#FFC50000" Content="Utwór"  Canvas.Right="120" SizeChanged="LabelNameSong_SizeChanged" > 
+                    </Label>
+                </Canvas>
+                <Label Name="NameArtist"  HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16">Artist</Label>
+                <Label Name="NameAlbum"  HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="2" FontSize="16">Album</Label>
+            </Grid>
+            <Button Name="ActualSongList" Grid.Column="2" Height="90" Background="#FFEDECF3"   Click="ActualSongList_Click" IsEnabled="False">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Name="PlaylistImage">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/playlist.png" />
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/playlist_focused.png" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </Button>   
+        </Grid> 
+        <Image Name="AlbumPoster" Grid.Row="2" Source="/OdtwarzaczMuzyczny;component/Images/art_unknown_grid.png" Stretch="Uniform" MinHeight="600" MaxHeight="615" ImageFailed="AlbumImage_ImageFailed"></Image>
+       
+        <Grid MaxHeight="140" Grid.Row="3" Background="#FFEDECF3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Name="RandomButton" Height="60" BorderBrush="{x:Null}" Click="RandomButton_Click" Background="#FFEDECF3" IsEnabled="False" >
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Name="RandomButtonImage">
+                        <Image.Style>
+                            <Style TargetType="Image">
+                                <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_shuffle.png" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_shuffle_focused22.png" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Image.Style>
+                    </Image>
+                
+            </Button>
+            <Button Name="RandomButtonClicked" Height="60" BorderBrush="{x:Null}" Click="RandomButtonClicked_Click" Background="#FFEDECF3" Visibility="Hidden"  >
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Name="RandomButtonReturn">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_shuffle_focused.png" />
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_shuffle_focused22.png" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+
+            </Button>
+            <Button Name="PreviousButton" Grid.Column="1" Background="#FFEDECF3" Command="MediaCommands.PreviousTrack" BorderBrush="{x:Null}" >
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Name="PreviousButtonImage" >
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_prev.png" />
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_prev_pressed.png" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </Button>
+
+            <Button Name="PlayPauseButton"  Grid.Column="2" Background="#FFEDECF3"  BorderBrush="{x:Null}" Command="MediaCommands.Play"  >
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image  Name="PlayPauseButtonReturned">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/appwidget_control_play_large.png" />
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/appwidget_control_play_large_pressed.png" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </Button >
+            <Button Name="PauseButton"  Grid.Column="2" Background="#FFEDECF3"  BorderBrush="{x:Null}" Command="MediaCommands.Pause" Visibility="Hidden" >
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Name="PauseButtonReturned">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_pause.png" />
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_pause_pressed.png" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </Button >
+            <Button Name="NextButton" Grid.Column="3" BorderBrush="{x:Null}" Background="#FFEDECF3" Command="MediaCommands.NextTrack" >
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Name="NextButtonReturned">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_next.png" />
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_next_pressed.png" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </Button>
+            <Button Name="RepeatButton" Grid.Column="4" Height="60" BorderBrush="{x:Null}" Background="#FFEDECF3"  Click="RepeatButton_Click" IsEnabled="False">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Name="RepeatButtonReturned">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/appwidget_control_repeat.png" />
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_repeat_focused2.png" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </Button>
+            <Button Name="SingleRepeatButton" Grid.Column="4" Height="60" BorderBrush="{x:Null}" Background="#FFEDECF3"  Click="SingleRepeatButton_Click"  Visibility="Hidden" >
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Name="SingleRepeatButtonReturned">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_repeat_current.png" />
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_repeat_current2.png" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </Button>
+            <Button Name="SingleRepeatButtonClicked" Grid.Column="4" Height="60" BorderBrush="{x:Null}" Background="#FFEDECF3"  Click="SingleRepeatButtonClicked_Click" Visibility="Hidden">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                    </ControlTemplate>
+                </Button.Template>
+                <Image Name="SingleRepeatButtonClickedReturned">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/appwidget_control_repeat_pressed.png" />
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Source" Value="/OdtwarzaczMuzyczny;component/Images/mp_control_repeat_focused2.png" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </Button>
+            
+        </Grid>
+        
+        <Grid Grid.Row="4" Background="#FFEDECF3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="80"/>
+              
+            </Grid.ColumnDefinitions>
+            <Slider Name="TimeSlider" Style="{StaticResource MyCustomStyleForSlider}" Margin="5" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center"  Foreground="#FFC50000" Thumb.DragStarted="sliProgress_DragStarted"  Thumb.DragCompleted="sliProgress_DragCompleted" ValueChanged="sliProgress_ValueChanged"   >
+             
+            </Slider>
+            
+            <Label Name="TimeNowSong" VerticalAlignment="Center" HorizontalAlignment="Center " FontSize="16" Foreground="#FFC50000" BorderBrush="{x:Null}">00:00:00</Label>
+            <Label Name="TimeSong" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="#FFC50000">00:00:00</Label>
+        </Grid>
+    </Grid>
+</Window>

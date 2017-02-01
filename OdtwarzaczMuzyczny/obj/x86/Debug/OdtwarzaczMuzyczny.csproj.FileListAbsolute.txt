@@ -1,0 +1,203 @@
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\OdtwarzaczMuzyczny.exe
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\OdtwarzaczMuzyczny.pdb
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\Przegladanie.baml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\Przegladanie.g.cs
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\App.g.cs
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny_MarkupCompile.cache
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.g.resources
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.Properties.Resources.resources
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.exe
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.pdb
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\MainWindow.baml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\Lista.baml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\Lista.g.cs
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.ResolveComReference.cache
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\WyszukiwanieOkladki.baml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\WyszukiwanieOkladki.g.cs
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Ilan.Google.API.pdb
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csprojResolveAssemblyReference.cache
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.GenerateResource.Cache
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\OdtwarzaczMuzyczny.exe.config
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\GoogleSearchAPI.Compact.dll
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.Compact.dll
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\GoogleSearchAPI.Compact.pdb
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\GoogleSearchAPI.Compact.xml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.Compact.xml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\AlbumyWykonawcy.baml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\AlbumyWykonawcy.g.cs
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\DodawaniePlaylist.baml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\DodawaniePlaylist.g.cs
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\EdytowaniePlaylisty.baml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\EdytowaniePlaylisty.g.cs
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Rafał\Documents\Visual Studio 2010\Projects\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.App.config
+H:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\OdtwarzaczMuzyczny.exe.config
+H:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.App.config
+H:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\Interop.WMPLib.dll
+H:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.ResolveComReference.cache
+H:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.exe
+H:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.pdb
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\OdtwarzaczMuzyczny.exe.config
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.App.config
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\Interop.WMPLib.dll
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.ResolveComReference.cache
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.exe
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.pdb
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\OdtwarzaczMuzyczny.exe
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\OdtwarzaczMuzyczny.pdb
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\GoogleSearchAPI.Compact.dll
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.Compact.dll
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.dll
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Extensions.dll
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Primitives.dll
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\GoogleSearchAPI.Compact.pdb
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\GoogleSearchAPI.Compact.xml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Ilan.Google.API.pdb
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.xml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.Compact.xml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Extensions.xml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Primitives.xml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\bin\Debug\policy.2.0.taglib-sharp.config
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csprojResolveAssemblyReference.cache
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\AlbumyWykonawcy.baml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\DodawaniePlaylist.baml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\EdytowaniePlaylisty.baml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\Lista.baml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\MainWindow.baml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\Przegladanie.baml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\WyszukiwanieOkladki.baml
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\AlbumyWykonawcy.g.cs
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\DodawaniePlaylist.g.cs
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\EdytowaniePlaylisty.g.cs
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\Lista.g.cs
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\MainWindow.g.cs
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\Przegladanie.g.cs
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\WyszukiwanieOkladki.g.cs
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\App.g.cs
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny_MarkupCompile.cache
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.g.resources
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.Properties.Resources.resources
+I:\Studia\Studia-Sem V\OdtwarzaczMuzyczny\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.GenerateResource.Cache
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\OdtwarzaczMuzyczny.exe.config
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.App.config
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\Interop.WMPLib.dll
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.ResolveComReference.cache
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.exe
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.pdb
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\OdtwarzaczMuzyczny.exe
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\OdtwarzaczMuzyczny.pdb
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\GoogleSearchAPI.Compact.dll
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.Compact.dll
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.dll
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Extensions.dll
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Primitives.dll
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\GoogleSearchAPI.Compact.pdb
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\GoogleSearchAPI.Compact.xml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Ilan.Google.API.pdb
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.xml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.Compact.xml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Extensions.xml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Primitives.xml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\policy.2.0.taglib-sharp.config
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csprojResolveAssemblyReference.cache
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\AlbumyWykonawcy.baml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\DodawaniePlaylist.baml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\EdytowaniePlaylisty.baml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\Lista.baml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\MainWindow.baml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\Przegladanie.baml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\WyszukiwanieOkladki.baml
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\AlbumyWykonawcy.g.cs
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\DodawaniePlaylist.g.cs
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\EdytowaniePlaylisty.g.cs
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\Lista.g.cs
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\MainWindow.g.cs
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\Przegladanie.g.cs
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\WyszukiwanieOkladki.g.cs
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\App.g.cs
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny_MarkupCompile.cache
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.g.resources
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.Properties.Resources.resources
+E:\Studia\Studia-Sem V\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.GenerateResource.Cache
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Google.Apis.Core.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Google.Apis.Customsearch.v1.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Google.Apis.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\GoogleSearchAPI.Compact.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\log4net.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Zlib.Portable.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.Compact.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Google.Apis.pdb
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Google.Apis.xml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Google.Apis.Core.pdb
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Google.Apis.Core.xml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Google.Apis.Customsearch.v1.pdb
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Google.Apis.Customsearch.v1.xml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Google.Apis.PlatformServices.pdb
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Google.Apis.PlatformServices.xml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\GoogleSearchAPI.Compact.pdb
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\GoogleSearchAPI.Compact.xml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\log4net.xml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Zlib.Portable.xml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\Newtonsoft.Json.Compact.xml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.App.config
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.ResolveComReference.cache
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\MainWindow.baml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\MainWindow.g.cs
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\App.g.cs
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny_MarkupCompile.cache
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.g.resources
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.Properties.Resources.resources
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csproj.GenerateResource.Cache
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.exe
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.pdb
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\OdtwarzaczMuzyczny.csprojResolveAssemblyReference.cache
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\OdtwarzaczMuzyczny.exe.config
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\OdtwarzaczMuzyczny.exe
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\bin\Debug\OdtwarzaczMuzyczny.pdb
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\FindAlbumImageWindow.baml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\FindAlbumImageWindow.g.cs
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\ArtistAlbumsWindow.baml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\AddPlaylistWindow.baml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\EditPlaylistyWindow.baml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\SongsList.baml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\ArtistAlbumsWindow.g.cs
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\AddPlaylistWindow.g.cs
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\EditPlaylistyWindow.g.cs
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\SongsList.g.cs
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\CollectionMusicWindow.baml
+C:\Users\rafal\Desktop\OdtwarzaczMuzyczny - wpf projekt\OdtwarzaczMuzyczny\obj\x86\Debug\CollectionMusicWindow.g.cs
