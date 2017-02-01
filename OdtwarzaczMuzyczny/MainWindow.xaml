@@ -1,7 +1,7 @@
 ﻿<Window x:Class="OdtwarzaczMuzyczny.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="OdtwarzaczMuzyczny"  Height="1040" Width="725" Loaded="Window1_Loaded" Icon="Images/app_music.png" SizeChanged="MainWindow_SizeChanged" Left="0" Top="0">
+        Title="OdtwarzaczMuzyczny"  Height="840" MinHeight="700" Width="500" MinWidth="480" Loaded="Window1_Loaded" Icon="Images/app_music.png" SizeChanged="MainWindow_SizeChanged" Left="0" Top="0">
 
 
     <Window.TaskbarItemInfo>
@@ -205,9 +205,9 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="1" Background="#FFEDECF3">
             <Grid.ColumnDefinitions>
@@ -319,9 +319,9 @@
                 </Image>
             </Button>   
         </Grid> 
-        <Image Name="AlbumPoster" Grid.Row="2" Source="/OdtwarzaczMuzyczny;component/Images/art_unknown_grid.png" Stretch="Uniform" MinHeight="600" MaxHeight="615" ImageFailed="AlbumImage_ImageFailed"></Image>
+        <Image Name="AlbumPoster" Grid.Row="2" Source="/OdtwarzaczMuzyczny;component/Images/art_unknown_grid.png" Stretch="Uniform" MinHeight="300" MaxHeight="315" ImageFailed="AlbumImage_ImageFailed"></Image>
        
-        <Grid MaxHeight="140" Grid.Row="3" Background="#FFEDECF3">
+        <Grid MaxHeight="140" Margin="0,15,0,15" Grid.Row="3" Background="#FFEDECF3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
                 <ColumnDefinition/>
