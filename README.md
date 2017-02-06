@@ -1,4 +1,5 @@
 # MusicPlayerWPF
+The project was created on studies in order to complete the WPF course.
 
 ![oknoglowne](https://cloud.githubusercontent.com/assets/25387287/22543154/ac195444-e92f-11e6-99d0-1f47984897f1.png)
 ![kolekcja](https://cloud.githubusercontent.com/assets/25387287/22543169/bfbf56d8-e92f-11e6-8a5b-eb385ea4caff.png)
